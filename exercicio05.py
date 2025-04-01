@@ -9,4 +9,7 @@ media = ((n1 + n2 + n3) /3)
 if (media >= 7.0):
     print(f"sua média é {media}, você está aprovado!")
 else:
-    print(f"sua média é {media}, você está reprovado!")
+    if (media<4):
+        print(f"sua média é {media}, você está reprovado!")
+    else:
+        print(f"sua media é {media}, você está de recuperação ")
