@@ -8,4 +8,4 @@ divisao = (n1 / n2)
 print(f" a soma do valor é: {soma}, "
       f"a subtração é: {subtraçao}, "
       f"a multiplicação é: {multiplicação} e "
-      f"a divisão é: {divisao}")
+      f"a divisão é: {divisao:.2f}")
