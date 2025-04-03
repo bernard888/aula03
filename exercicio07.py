@@ -5,7 +5,6 @@ tcombustivel = input("Bom dia!"
 qlitros = float(input("Informe a quantidade de litros que você deseja: "))
 vgas = 5.80
 veta = 4.90
-
 if tcombustivel == "G" or tcombustivel == "g" :
     valor = vgas * qlitros
 else:
@@ -13,5 +12,4 @@ else:
          valor = veta * qlitros
      else:
         print("tipo de combustivel invalido")
-
 print(f"o valor a ser pago é R${valor:.2f}")
